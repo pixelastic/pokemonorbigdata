@@ -1,0 +1,36 @@
+{
+  "name": "pokemonorbigdata",
+  "version": "0.0.1",
+  "description": "Is this Pokemon or Big Data ?",
+  "author": "Tim \"pixelastic\" Carry",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:pixelastic/pokemonorbigdata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pixelastic/pokemonorbigdata/issues"
+  },
+  "engines": {
+    "node": "0.10.21",
+    "npm": "1.3.11"
+  },
+  "scripts": {
+    "build:html": "rsync app/*.html dist/",
+    "watch:html": "onchange 'app/*.html' -- npm run build:html",
+
+    "build:js": "jsx app/js/ dist/js/",
+    "watch:js": "jsx --watch app/js/ dist/js/",
+
+    "build": "npm run build:html && npm run build:js",
+    "build:watch": "parallelshell 'npm run watch:html' 'npm run watch:js'",
+    "serve": "npm run build:watch & live-server --port=9200 dist/"
+  },
+  "devDependencies": {
+    "live-server": "0.7.0",
+    "react-tools": "0.13.0",
+    "parallelshell": "1.1.1",
+    "onchange": "1.0.0"
+  },
+  "dependencies": {}
+}

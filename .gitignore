@@ -30,3 +30,6 @@ Thumbs.db
 # Dependencies
 bower_components
 node_modules
+
+# Build
+dist
