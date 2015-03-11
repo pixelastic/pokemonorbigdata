@@ -1,0 +1,40 @@
+body {
+  padding:10px;
+}
+
+/* SplashScreen */
+.splashscreen {
+}
+.splashscreen-active {
+  background:red;
+  padding:5rem;
+  font-size:12rem;
+}
+.splashscreen-hidden {
+  display:none;
+}
+
+
+.question {
+}
+.question-name, .answer-name {
+  font-size:5rem;
+  text-align:center;
+}
+.question-buttons {
+  list-style:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+.question-buttons li {
+  padding-top:5rem;
+  float:left;
+  text-align:center;
+  width:50%;
+}
+
+/* Answer */
+.answer-next {
+  text-align:center;
+}
