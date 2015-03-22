@@ -10,7 +10,7 @@ var APP_STATES = {
 var IS_POKEMON=0;
 var IS_BIGDATA=1;
 
-var App = React.createClass({
+var App = React.createClass({displayName: "App",
   getInitialState: function() {
     // Load question data from the server
     var self = this;
@@ -69,19 +69,19 @@ var App = React.createClass({
   render: function() {
     switch (this.state.currentState) {
       case APP_STATES.LOADING:
-        return <SplashScreen/>
+        return React.createElement(SplashScreen, null)
       case APP_STATES.QUESTION:
-        return <Question selectAnswer={this.selectAnswer} question={this.state.currentQuestion} />
+        return React.createElement(Question, {selectAnswer: this.selectAnswer, question: this.state.currentQuestion})
       case APP_STATES.ANSWER:
-        return <Answer nextQuestion={this.nextQuestion} question={this.state.currentQuestion} isAnswerCorrect={this.state.isLastAnswerCorrect} />
+        return React.createElement(Answer, {nextQuestion: this.nextQuestion, question: this.state.currentQuestion, isAnswerCorrect: this.state.isLastAnswerCorrect})
       case APP_STATES.FINISHED:
-        return <EndScreen correctAnswers={this.state.correctAnswers} questionList={this.state.questionList} />
+        return React.createElement(EndScreen, {correctAnswers: this.state.correctAnswers, questionList: this.state.questionList})
     }
   }
 });
 
 React.render(
-  <App />,
+  React.createElement(App, null),
   document.getElementById('body')
 );
 
