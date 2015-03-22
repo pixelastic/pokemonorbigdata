@@ -8,10 +8,12 @@ git checkout gh-pages
 
 # Move everything from ./dist to the root
 rsync \
-  --delete \
+  --delete-after \
   --recursive \
+  --exclude=dist \
   --exclude=node_modules \
   --exclude=.git \
+  --exclude=.gitignore \
   ./dist/ \
   .
 
@@ -22,4 +24,5 @@ git commit -a -m "Building for gh-pages"
 # Pushing
 git push origin gh-pages
 
-  
+# Get back to master
+git checkout master
