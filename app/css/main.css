@@ -1,17 +1,19 @@
 body {
   padding:10px;
 }
+.inspired {
+  position:fixed;
+  bottom:0;
+  right:0;
+  left:0;
+  text-align:center;
+}
 
 /* SplashScreen */
 .splashscreen {
-}
-.splashscreen-active {
-  background:red;
   padding:5rem;
   font-size:12rem;
-}
-.splashscreen-hidden {
-  display:none;
+  text-align:center;
 }
 
 
@@ -35,6 +37,14 @@ body {
 }
 
 /* Answer */
+.answer {
+  text-align:center;
+  padding:1rem;
+}
+.answer-text {
+  font-size:1.5rem;
+  padding:1rem;
+}
 .answer-next {
   text-align:center;
 }

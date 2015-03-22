@@ -1,5 +1,12 @@
 'use strict';
 
+var APP_STATES = {
+  LOADING: 1,
+  QUESTION: 2,
+  ANSWER: 3,
+  FINISHED: 4
+};
+
 var IS_POKEMON=0;
 var IS_BIGDATA=1;
 
@@ -8,37 +15,67 @@ var App = React.createClass({
     // Load question data from the server
     var self = this;
     $.get('./questions.json', function(questions) {
+      questions = _.shuffle(questions);
       self.setState({
-        isLoading: false,
-        questionList: questions
+        currentState: APP_STATES.QUESTION,
+        questionList: questions,
+        currentQuestion: questions[0]
       });
     });
 
     return {
-      isLoading: true,
-      isWaitingForAnswer: true,
+      currentState: APP_STATES.LOADING,
       currentQuestionIndex: 0,
+      currentQuestion: null,
       questionList: [],
-      correctAnswers: 0
+      correctAnswers: 0,
+      isLastAnswerCorrect: null
     };
   },
 
+  selectAnswer: function selectAnswer(answerType) {
+    var isCorrect = this.state.currentQuestion.type === answerType;
+
+    var correctAnswers = this.state.correctAnswers;
+    if (isCorrect) {
+      correctAnswers++;
+    }
+
+    this.setState({
+      currentState: APP_STATES.ANSWER,
+      correctAnswers: correctAnswers,
+      isLastAnswerCorrect: isCorrect
+    });
+  },
+
+  nextQuestion: function nextQuestion() {
+    var newIndex = this.state.currentQuestionIndex+1;
+
+    // End of the game
+    if (newIndex === this.state.questionList.length) {
+      this.setState({
+        currentState: APP_STATES.FINISHED
+      });
+      return;
+    }
+
+    this.setState({
+      currentState: APP_STATES.QUESTION,
+      currentQuestionIndex: newIndex,
+      currentQuestion: this.state.questionList[newIndex]
+    });
+  },
+
   render: function() {
-    var isSplashScreenActive = this.state.isLoading;
-    var isQuestionActive = !isSplashScreenActive && this.state.isWaitingForAnswer;
-    var isAnswerActive = !isSplashScreenActive && !this.state.isWaitingForAnswer;
-    var currentQuestion = this.state.questionList[this.state.currentQuestionIndex];
-
-    if (isSplashScreenActive) {
-      return <SplashScreen active={isSplashScreenActive} />
-    }
-
-    if (isQuestionActive) {
-      return <Question active={isQuestionActive} question={currentQuestion} />
-    }
-
-    if (isAnswerActive) {
-      return <Answer active={isAnswerActive} question={currentQuestion} />
+    switch (this.state.currentState) {
+      case APP_STATES.LOADING:
+        return <SplashScreen/>
+      case APP_STATES.QUESTION:
+        return <Question selectAnswer={this.selectAnswer} question={this.state.currentQuestion} />
+      case APP_STATES.ANSWER:
+        return <Answer nextQuestion={this.nextQuestion} question={this.state.currentQuestion} isAnswerCorrect={this.state.isLastAnswerCorrect} />
+      case APP_STATES.FINISHED:
+        return <EndScreen correctAnswers={this.state.correctAnswers} questionList={this.state.questionList} />
     }
   }
 });

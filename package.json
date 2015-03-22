@@ -31,7 +31,7 @@
     "build:json": "rsync app/*.json dist/",
     "watch:json": "onchange 'app/*.json' -- npm run build:json",
 
-    "build:img": "rsync app/img/ dist/img/",
+    "build:img": "rsync app/img/* dist/img/",
     "watch:img": "onchange 'app/img/*' -- npm run build:img",
 
     "build": "npm run build:html && npm run build:css && npm run build:js && npm run build:jsx && npm run build:json && npm run build:img",
