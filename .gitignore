@@ -17,6 +17,7 @@ tmp
 # *.min.js
 __pycache__
 .sass-cache
+.module-cache
 
 # Junk
 .DS_Store
