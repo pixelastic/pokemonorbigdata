@@ -16,6 +16,8 @@ rsync \
   ./dist/ \
   .
 
+exit 1
+
 # Commit
 git add .
 git commit -a -m "Building for gh-pages"
