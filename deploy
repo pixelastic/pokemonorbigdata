@@ -1,0 +1,26 @@
+#!/usr/bin/env zsh
+
+# Build it
+npm run build
+
+# Switch to gh-pages branch
+git checkout gh-pages
+
+# Move everything from ./dist to the root
+rsync \
+  -n \
+  --delete \
+  --recursive \
+  --exclude=node_modules \
+  --exclude=.git \
+  ./dist/ \
+  .
+
+# Commit
+git add .
+git commit -a -m "Building for gh-pages"
+
+# Pushing
+git push origin gh-pages
+
+  
