@@ -1,5 +1,8 @@
 #!/usr/bin/env zsh
 
+# Clean it up
+rm -drf ./dist
+
 # Build it
 npm run build
 
