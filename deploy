@@ -8,15 +8,12 @@ git checkout gh-pages
 
 # Move everything from ./dist to the root
 rsync \
-  -n \
   --delete \
   --recursive \
   --exclude=node_modules \
   --exclude=.git \
   ./dist/ \
   .
-
-exit 1
 
 # Commit
 git add .
