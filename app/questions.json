@@ -61,6 +61,6 @@
 }, {
   "name": "Arvados",
   "type": 1,
-  "text": "Open source distributed computing software for bioinformatics, data science, and production analysis using massive data sets.",
+  "text": "Not to be confused with Ariados.  Spins a web of microservices around unsuspecting sysadmins.",
   "img": "arvados.png"
 }]
