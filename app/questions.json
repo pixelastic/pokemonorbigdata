@@ -58,4 +58,9 @@
   "type": 0,
   "text": "Despite report to the contrary, Arbok no does evolve into Seviper.",
   "img": "arbok.png"
+}, {
+  "name": "Arvados",
+  "type": 1,
+  "text": "Open source distributed computing software for bioinformatics, data science, and production analysis using massive data sets.",
+  "img": "arvados.png"
 }]
