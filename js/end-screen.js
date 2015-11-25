@@ -16,7 +16,7 @@ var EndScreen = React.createClass({displayName: "EndScreen",
 
     return (
       React.createElement("div", {className: "endscreen"}, 
-        React.createElement("h1", {className: "endscreen-title"}, "Congratulation, you did ", percent, "%!"), 
+        React.createElement("h1", {className: "endscreen-title"}, "Congratulations, you got ", percent, "% correct!"), 
         React.createElement("div", {className: "progress"}, 
           React.createElement("div", {className: classes, style: style}, 
             React.createElement("span", {className: "sr-only"}, "20% Complete")
