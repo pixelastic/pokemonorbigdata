@@ -1,9 +1,9 @@
 [{
-  "name": "Crebase",
-  "url": "http://bulbapedia.bulbagarden.net/wiki/Avalugg_(Pok%C3%A9mon)",
+  "name": "Gorebyss",
+  "url": "http://bulbapedia.bulbagarden.net/wiki/Gorebyss_(Pok%C3%A9mon)",
   "type": 0,
-  "text": "Crebase has the highest defense of all ice-type pokemon. Do no confuse with HBase, Couchbase, MeshBase, Graphbase or KirbyBase.",
-  "img": "crebase.png"
+  "text": "His body is durable enough to withstand high-pressure levels in the deep sea. Do no confuse with HBase, Couchbase, MeshBase, Graphbase or KirbyBase.",
+  "img": "gorebyss.png"
 }, {
   "name": "Tokutek",
   "url": "https://www.percona.com/",
@@ -47,11 +47,11 @@
   "text": "Refer to lock-free architecture for SQL Server 2014. Not to be confused with Magneton, the levitating Pokémon.",
   "img": "hekaton.jpg"
 }, {
-  "name": "Mukubird",
-  "url": "http://bulbapedia.bulbagarden.net/wiki/Staravia_(Pok%C3%A9mon)",
+  "name": "Delibird",
+  "url": "http://bulbapedia.bulbagarden.net/wiki/Delibird_(Pok%C3%A9mon)",
   "type": 0,
-  "text": "Mukubird flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
-  "img": "mukubird.png"
+  "text": "The 25th of December is his favorite day.",
+  "img": "delibird.png"
 }, {
   "name": "Summingbird",
   "url": "https://github.com/twitter/summingbird",
@@ -74,6 +74,6 @@
   "name": "Arvados",
   "url": "https://arvados.org/",
   "type": 1,
-  "text": "Not to be confused with Ariados.  Spins a web of microservices around unsuspecting sysadmins.",
+  "text": "Not to be confused with Ariados. Spins a web of microservices around unsuspecting sysadmins.",
   "img": "arvados.png"
 }]
