@@ -9,12 +9,15 @@ var Answer = React.createClass({
     });
     var img = "./img/" + this.props.question.img;
     var name = this.props.question.name;
+    var url = this.props.question.url;
     var text = this.props.question.text;
     var type = this.props.question.type === IS_BIGDATA ? 'Big Data' : 'Pokemon';
 
     return (
       <div className={classes}>
-        <h1 className="answer-name">{name} is {type}!</h1>
+        <h1 className="answer-name">
+            <a href={url} target="_blank">{name}</a> is {type}!
+        </h1>
         <div className="answer-picture"><img src={img} alt={name} /></div>
         <div className="answer-text">{text}</div>
         <div className="answer-next">
