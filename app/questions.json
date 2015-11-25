@@ -11,7 +11,7 @@
 }, {
   "name": "Adabas",
   "type": 1,
-  "text": "ADABAS was NoSQL from time when there was no SQL. Technology now is own by Software AG. \"Software AG: We're not sure what we do either.\"",
+  "text": "ADABAS was NoSQL from a time when there was no SQL. The technology now is owned by Software AG. \"Software AG: We're not sure what we do either.\"",
   "img": "adabas.gif"
 }, {
   "name": "Feebas",
@@ -26,7 +26,7 @@
 }, {
   "name": "Hadoop",
   "type": 1,
-  "text": "Hadoop is distributed system for counting words.",
+  "text": "Hadoop is a distributed system for counting words.",
   "img": "hadoop.png"
 }, {
   "name": "Vulpix",
@@ -36,17 +36,17 @@
 }, {
   "name": "Hekaton",
   "type": 1,
-  "text": "Refer to lock-free architecture for SQL Server 2014. no to be confuse with Magneton the levitating Pokémon.",
+  "text": "Refer to lock-free architecture for SQL Server 2014. not to be confused with Magneton, the levitating Pokémon.",
   "img": "hekaton.jpg"
 }, {
   "name": "Mukubird",
   "type": 0,
-  "text": "Mukubird flies around forests and fields in search of bug Pokémon. It stay within a huge flock.",
+  "text": "Mukubird flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
   "img": "mukubird.png"
 }, {
   "name": "Summingbird",
   "type": 1,
-  "text": "This Twitter technology combines streaming, MapReduce, Scalding, Scala and Storm. Potential users must prove they are hipster before allowed to download.",
+  "text": "This Twitter technology combines streaming, MapReduce, Scalding, Scala and Storm. Potential users must prove they are a hipster before they are allowed to download.",
   "img": "summingbird.png"
 }, {
   "name": "Akiban",
@@ -56,7 +56,7 @@
 }, {
   "name": "Arbok",
   "type": 0,
-  "text": "Despite report to the contrary, Arbok no does evolve into Seviper.",
+  "text": "Despite reports to the contrary, Arbok does not evolve into Seviper.",
   "img": "arbok.png"
 }, {
   "name": "Arvados",
