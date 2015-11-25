@@ -58,4 +58,9 @@
   "type": 0,
   "text": "Despite report to the contrary, Arbok no does evolve into Seviper.",
   "img": "arbok.png"
+}, {
+  "name": "Arvados",
+  "type": 1,
+  "text": "Not to be confused with Ariados.  Spins a web of microservices around unsuspecting sysadmins.",
+  "img": "arvados.png"
 }]
