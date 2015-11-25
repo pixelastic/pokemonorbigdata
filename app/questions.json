@@ -6,7 +6,7 @@
 }, {
   "name": "Tokutek",
   "type": 1,
-  "text": "Tokutek claim to improve MongoDB performance 20x. Unclear if this also mean lose 20x as many documents.",
+  "text": "Tokutek claims to improve MongoDB performance 20x. It is unclear if this also means losing 20x as many documents.",
   "img": "tokutek.png"
 }, {
   "name": "Adabas",
