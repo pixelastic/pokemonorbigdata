@@ -58,4 +58,49 @@
   "type": 0,
   "text": "Despite report to the contrary, Arbok no does evolve into Seviper.",
   "img": "arbok.png"
+}, {
+  "name": "Flink",
+  "type": 1,
+  "text": "Flink’s core is a streaming dataflow engine that provides data distribution, communication, and fault tolerance for distributed computations over data streams.",
+  "img": "flink.png"
+}, {
+  "name": "Impala",
+  "type": 1,
+  "text": "Impala is the open source, native analytic database for Apache Hadoop. Impala is shipped by Cloudera, MapR, Oracle, and Amazon.",
+  "img": "impala.png"
+}, {
+  "name": "Mahout",
+  "type": 1,
+  "text": "The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.",
+  "img": "mahout.png"
+}, {
+  "name": "Pangool",
+  "type": 1,
+  "text": "Pangool aims to simplify Hadoop development without loosing the performance and flexibility that the low-level Hadoop API provides.",
+  "img": "pangool.png"
+}, {
+  "name": "Azkaban",
+  "type": 1,
+  "text": "Azkaban is a batch workflow job scheduler created at LinkedIn to run Hadoop jobs.",
+  "img": "azkaban.png"
+}, {
+  "name": "HBase",
+  "type": 1,
+  "text": "Apache HBase™ is the Hadoop database, a distributed, scalable, big data store.",
+  "img": "hbase.png"
+}, {
+  "name": "Hive",
+  "type": 1,
+  "text": "The Apache Hive ™ data warehouse software facilitates querying and managing large datasets residing in distributed storage.",
+  "img": "hive.png"
+}, {
+  "name": "Spark",
+  "type": 1,
+  "text": "Apache Spark™ is a fast and general engine for large-scale data processing.",
+  "img": "spark.png"
+}, {
+  "name": "Storm",
+  "type": 1,
+  "text": "Apache Storm is a free and open source distributed realtime computation system.",
+  "img": "storm.png"
 }]
