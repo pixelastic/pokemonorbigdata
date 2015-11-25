@@ -16,7 +16,7 @@ var EndScreen = React.createClass({
 
     return (
       <div className="endscreen">
-        <h1 className="endscreen-title">Congratulation, you did {percent}%!</h1>
+        <h1 className="endscreen-title">Congratulations, you got {percent}% correct!</h1>
         <div className="progress">
           <div className={classes} style={style}>
             <span className="sr-only">20% Complete</span>
