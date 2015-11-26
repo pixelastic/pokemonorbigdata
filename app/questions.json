@@ -2,7 +2,7 @@
   "name": "Gorebyss",
   "url": "http://bulbapedia.bulbagarden.net/wiki/Gorebyss_(Pok%C3%A9mon)",
   "type": 0,
-  "text": "His body is durable enough to withstand high-pressure levels in the deep sea. Do no confuse with HBase, Couchbase, MeshBase, Graphbase or KirbyBase.",
+  "text": "His body is durable enough to withstand high-pressure levels in the deep sea. Do not confuse with HBase, Couchbase, MeshBase, Graphbase or KirbyBase.",
   "img": "gorebyss.png"
 }, {
   "name": "Tokutek",
@@ -20,7 +20,7 @@
   "name": "Feebas",
   "url": "http://bulbapedia.bulbagarden.net/wiki/Feebas_(Pok%C3%A9mon)",
   "type": 0,
-  "text": "Feebas require Swift Swim to get marvel scale.",
+  "text": "Feebas requires Swift Swim to get marvel scale.",
   "img": "feebas.png"
 }, {
   "name": "Azurill",
