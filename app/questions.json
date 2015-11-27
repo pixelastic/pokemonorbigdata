@@ -76,4 +76,16 @@
   "type": 1,
   "text": "Not to be confused with Ariados. Spins a web of microservices around unsuspecting sysadmins.",
   "img": "arvados.png"
+}, {
+  "name": "Seahorse",
+  "url": "https://seahorse.deepsense.io/",
+  "type": 1,
+  "text": "Not to be confused with Horsea. Seahorse lets you create Apache Spark applications in a visual way.",
+  "img": "seahorse.png"
+}, {
+  "name": "Horsea",
+  "url": "http://bulbapedia.bulbagarden.net/wiki/Horsea_(Pok%C3%A9mon)",
+  "type": 0,
+  "text": "Horsea is a small, blue, seahorse-like Pokémon with a single dorsal fin and a tightly curled tail.",
+  "img": "horsea.png"
 }]
