@@ -6,6 +6,7 @@
 *~
 nohup.out
 tmp
+.idea
 
 # Compiled stuff
 *.exe

@@ -71,6 +71,30 @@
   "text": "Despite reports to the contrary, Arbok does not evolve into Seviper.",
   "img": "arbok.png"
 }, {
+  "name": "Flink",
+  "url": "https://flink.apache.org/",
+  "type": 1,
+  "text": "Apache Flink will helps us doing batch and stream processing, but the logo is cute enough to become Pokémon.",
+  "img": "flink.png"
+}, {
+  "name": "Impala",
+  "url": "http://impala.io/",
+  "type": 1,
+  "text": "Querying big data is too slow? Impala have solution for it. But reconsider to tame that one, it built on C++.",
+  "img": "impala.png"
+}, {
+  "name": "Pangool",
+  "url": "http://pangool.net/",
+  "type": 1,
+  "text": "It's like Sandlash, but it will helps us to developing map reduce job for Hadoop.",
+  "img": "pangool.png"
+}, {
+  "name": "Azkaban",
+  "url": "http://azkaban.github.io/",
+  "type": 1,
+  "text": "It's not the evolution from Abra, Kadabra, or Alakazam, nor related with Harry Potter. Azkaban is workflow scheduler, just like crontab, but with graphical interface.",
+  "img": "azkaban.png"
+}, {
   "name": "Arvados",
   "url": "https://arvados.org/",
   "type": 1,
