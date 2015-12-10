@@ -74,19 +74,19 @@
   "name": "Flink",
   "url": "https://flink.apache.org/",
   "type": 1,
-  "text": "Apache Flink will helps us doing batch and stream processing, but the logo is cute enough to become Pokémon.",
+  "text": "Apache Flink will help us with batch and stream processing, but the logo is cute enough to become Pokémon.",
   "img": "flink.png"
 }, {
   "name": "Impala",
   "url": "http://impala.io/",
   "type": 1,
-  "text": "Querying big data is too slow? Impala have solution for it. But reconsider to tame that one, it built on C++.",
+  "text": "Querying big data is too slow? Impala has a solution for it. But reconsider taming that one, it is built on C++.",
   "img": "impala.png"
 }, {
   "name": "Pangool",
   "url": "http://pangool.net/",
   "type": 1,
-  "text": "It's like Sandlash, but it will helps us to developing map reduce job for Hadoop.",
+  "text": "It's like Sandlash, but it will help us to develop map reduce jobs for Hadoop.",
   "img": "pangool.png"
 }, {
   "name": "Azkaban",
