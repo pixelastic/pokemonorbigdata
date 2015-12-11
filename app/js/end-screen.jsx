@@ -2,7 +2,7 @@
 
 var EndScreen = React.createClass({
   render: function() {
-    var percent = Math.floor(this.props.correctAnswers / this.props.questionList.length * 100);
+    var percent = Math.round(this.props.correctAnswers / this.props.questionList.length * 100);
     var classes = classNames({
       'progress-bar': true,
       'progress-bar-danger': percent < 20,
