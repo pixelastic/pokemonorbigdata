@@ -62,7 +62,7 @@
   "name": "Akiban",
   "url": "http://www.akiban.com/",
   "type": 1,
-  "text": "Touted as SQL database with object structured storage, Akiban was recently acquired by another database vendor you never have heard of.",
+  "text": "Touted as SQL database with object structured storage, Akiban was recently acquired by another database vendor you have never heard of.",
   "img": "akiban.jpg"
 }, {
   "name": "Arbok",
@@ -112,4 +112,28 @@
   "type": 0,
   "text": "Horsea is a small, blue, seahorse-like Pokémon with a single dorsal fin and a tightly curled tail.",
   "img": "horsea.png"
+}, {
+  "name": "Titan",
+  "url": "http://thinkaurelius.github.io/titan/",
+  "type": 1,
+  "text": "Titan is a distributed graph database that is unfortunately not related to the legendary titans, a term coined by Pokémon the Movie 2000 - The Power of One, referring to Articuno, Zapdos, and Moltres.",
+  "img": "titan.png"
+}, {
+  "name": "Atlassian",
+  "url": "https://www.atlassian.com/",
+  "type": 1,
+  "text": "Atlassian has somehow duped several software companies into thinking they need JIRA to be agile; if only we all had the agility move in real life.",
+  "img": "atlassian.png"
+}, {
+  "name": "Jirachi",
+  "url": "http://bulbapedia.bulbagarden.net/wiki/Jirachi_(Pok%C3%A9mon)",
+  "type": 0,
+  "text": "Jirachi is a steel and psychic-type Pokémon with no known evolutions. It should not be confused with JIRA, an issue tracker for software teams.",
+  "img": "jirachi.png"
+}, {
+  "name": "Spoink",
+  "url": "http://bulbapedia.bulbagarden.net/wiki/Spoink_(Pok%C3%A9mon)",
+  "type": 0,
+  "text": "Spoink is a bouncy psychic-type Pokémon that should not be confused with Splunk, a software suite for analyzing log data.",
+  "img": "spoink.png"
 }]
