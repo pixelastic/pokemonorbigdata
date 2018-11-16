@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+set -e
+
+rm -rf ./dist
+mkdir -p ./dist
+
+rsync \
+  -R \
+  ./app/./css/* \
+  ./app/./img/* \
+  ./app/./js/*.js \
+  ./app/./*.html \
+  ./app/./*.json \
+  ./dist
+
+jsx --extension jsx ./app/js/ ./dist/js/
+# npm run build:html && npm run build:css && npm run build:js && npm run build:jsx && npm run build:json && npm run build:img
+#
+#
+    # "build:html": "rsync app/*.html dist/",
+    # "watch:html": "onchange 'app/*.html' -- npm run build:html",
+
+    # "build:css": "rsync app/css/*.css dist/css/",
+    # "watch:css": "onchange 'app/css/*.css' -- npm run build:css",
+
+    # "build:js": "rsync app/js/*.js dist/js/",
+    # "watch:js": "onchange 'app/js/*.js' -- npm run build:js",
+
+    # "build:jsx": "jsx --extension jsx app/js/ dist/js/",
+    # "watch:jsx": "jsx --extension jsx --watch app/js/ dist/js/",
+
+    # "build:json": "rsync app/*.json dist/",
+    # "watch:json": "onchange 'app/*.json' -- npm run build:json",
+
+    # "build:img": "rsync app/img/* dist/img/",
+    # "watch:img": "onchange 'app/img/*' -- npm run build:img",
+
+    # "build": "npm run build:html && npm run build:css && npm run build:js && npm run build:jsx && npm run build:json && npm run build:img",
+    # "build:watch": "parallelshell 'npm run watch:html' 'npm run watch:css' 'npm run watch:js' 'npm run watch:jsx' 'npm run watch:json' 'npm run watch:img'",
+
+
+#     "build:html": "rsync app/*.html dist/",
+#     "build:css": "rsync app/css/*.css dist/css/",
+#     "build:js": "rsync app/js/*.js dist/js/",
+#     "build:jsx": "jsx --extension jsx app/js/ dist/js/",
+#     "build:json": "rsync app/*.json dist/",
+#     "build:img": "rsync app/img/* dist/img/",
+
+
+
+
+
