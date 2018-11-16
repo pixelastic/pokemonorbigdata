@@ -136,4 +136,10 @@
   "type": 0,
   "text": "Spoink is a bouncy psychic-type Pokémon that should not be confused with Splunk, a software suite for analyzing log data.",
   "img": "spoink.png"
+}, {
+  "name": "Debezium",
+  "url": "https://debezium.io",
+  "type": 0,
+  "text": "Debezium is a tool for turning your coherent relational data into indecipherable big data. Not to be confused with Meganium the herb Pokémon",
+  "img": "debezium.jpg"
 }]
