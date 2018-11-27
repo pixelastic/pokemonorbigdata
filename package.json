@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "gh-pages": "2.0.1",
-    "live-server": "0.7.0",
+    "live-server": "1.2.1",
     "onchange": "1.0.0",
     "parallelshell": "1.1.1",
     "react-tools": "0.13.0"
