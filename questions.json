@@ -166,5 +166,26 @@
     "type": 1,
     "text": "Debezium is a tool for turning your coherent relational data into indecipherable big data. Not to be confused with Meganium the herb Pokémon",
     "img": "debezium.jpg"
+  },
+  {
+    "name": "Geode",
+    "url": "https://geode.apache.org/",
+    "type": 1,
+    "text": "Geode is a database like model, which makes people to ask more why Hadoop is not RDBMS. Not to be confused with Geodude which rocks",
+    "img": "geode.png"
+  },
+  {
+    "name": "Geodude",
+    "url": "http://bulbapedia.bulbagarden.net/wiki/Geodude_(Pok%C3%A9mon)",
+    "type": 0,
+    "text": "Geodude is a hard rock pokemon immune to one hit ko, not like my Hadoop cluster. Unlike Geode which make you more confused about big data.",
+    "img": "geodude.png"
+  },
+  {
+    "name": "Ambari",
+    "url": "https://ambari.apache.org/",
+    "type": 1,
+    "text": "Ambari is a tool that makes administration of Hadoop easy so you can make fun of the developers when they run out of executors. Not to be confused with Ambipom which is a long tail pokemon.",
+    "img": "ambari.png"
   }
 ]
