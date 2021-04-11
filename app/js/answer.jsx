@@ -11,7 +11,7 @@ var Answer = React.createClass({
     var name = this.props.question.name;
     var url = this.props.question.url;
     var text = this.props.question.text;
-    var type = this.props.question.type === IS_BIGDATA ? 'Big Data' : 'Pokemon';
+    var type = this.props.question.type === IS_BIGDATA ? 'Big Data' : 'Pokémon';
 
     return (
       <div className={classes}>
