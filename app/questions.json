@@ -99,7 +99,7 @@
   },
   {
     "name": "Pangool",
-    "url": "http://pangool.net/",
+    "url": "http://datasalt.github.io/pangool/",
     "type": 1,
     "text": "It's like Sandlash, but it will help us to develop map reduce jobs for Hadoop.",
     "img": "pangool.png"
