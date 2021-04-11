@@ -1,12 +1,12 @@
-# Pokemon or Big Data
+# Pokémon or Big Data
 
-Is this a Pokemon or some kind of Big Data technology ?
+Is this a Pokémon or some kind of Big Data technology ?
 
-## Why ?
+## Why?
 
 Because it is fun. Inspired by this [Google Doc form][1].
 
-## How ?
+## How?
 
 This also was a sandbox to try [React][2] and [npm as a build tool][3].
 
