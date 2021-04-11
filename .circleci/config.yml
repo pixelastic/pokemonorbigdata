@@ -1,0 +1,35 @@
+version: 2
+
+_aliases:
+  - &defaults
+    docker:
+      - image: circleci/node:12.12.0
+  - &restore_cache
+    restore_cache:
+      key: yarn-cache-{{ checksum "yarn.lock" }}
+  - &yarn_install
+    run: 'yarn install'
+  - &save_cache
+    save_cache:
+      key: yarn-cache-{{ checksum "yarn.lock" }}
+      paths:
+        - ~/.cache/yarn
+
+jobs:
+  # Build/Test/Lint
+  ci:
+    <<: *defaults
+    steps:
+      - checkout
+      - *restore_cache
+      - *yarn_install
+      - *save_cache
+      - run: 'yarn run build'
+
+workflows:
+  version: 2
+  # On every commit: Build
+  commit:
+    jobs:
+      - ci
+
