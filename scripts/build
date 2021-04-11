@@ -5,11 +5,14 @@ rm -rf ./dist
 mkdir -p ./dist
 
 cp \
-  ./app/./css/* \
-  ./app/./img/* \
-  ./app/./js/*.js \
-  ./app/./*.html \
-  ./app/./*.json \
+  -r \
+  ./app/css \
+  ./app/img \
+  ./app/index.html \
+  ./app/questions.json \
   ./dist
+
+mkdir -p ./dist/js
+cp ./app/js/*.js ./dist/js
 
 jsx --extension jsx ./app/js/ ./dist/js/
