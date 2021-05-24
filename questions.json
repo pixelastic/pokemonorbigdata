@@ -10,7 +10,7 @@
     "name": "Tokutek",
     "url": "https://www.percona.com/",
     "type": 1,
-    "text": "Tokutek claims to improve MongoDB performance 20x. It is unclear if this also means losing 20x as many documents.",
+    "text": "Tokutek claims to improve MongoDB performance 20x. It is unclear if this also applies to $lookup.",
     "img": "tokutek.png"
   },
   {
