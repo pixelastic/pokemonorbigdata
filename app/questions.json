@@ -187,5 +187,19 @@
     "type": 1,
     "text": "Ambari is a tool that makes administration of Hadoop easy so you can make fun of the developers when they run out of executors. Not to be confused with Ambipom which is a long tail pokemon.",
     "img": "ambari.png"
+  },
+  {
+    "name": "Arango",
+    "url": "https://www.arangodb.com/",
+    "type": 1,
+    "text": "ArangoDB is a multi-model database that can be used a graph DB, document DB, and search engine. Not to be confused with Aggron, a giant Pokémon",
+    "img": "arango.png"
+  },
+  {
+    "name": "Aggron",
+    "url": "https://bulbapedia.bulbagarden.net/wiki/Aggron_(Pok%C3%A9mon)",
+    "type": 0,
+    "text": "Aggron is a huge Pokémon who can evolve into an even huger Mega Aggron. Not to be confused with Arango, a database that wants to be your one-stop shop for every business need.",
+    "img": "aggron.png"
   }
 ]
