@@ -187,5 +187,19 @@
     "type": 1,
     "text": "Ambari is a tool that makes administration of Hadoop easy so you can make fun of the developers when they run out of executors. Not to be confused with Ambipom which is a long tail pokemon.",
     "img": "ambari.png"
+  },
+  {
+    "name": "Quzara",
+    "url": "https://www.quzara.com/",
+    "type": 1,
+    "text": "Quzara specializes in offering a comprehensive range of Cloud Security Services and Security Analytics",
+    "img": "quzara.jpg"    
+  },
+  {
+    "name": "Rayquaza",
+    "url": "http://",
+    "type": 0,
+    "text": "Along with Kyogre and Groudon, Rayquaza is one of the super-ancient Pokémon, serving as the group's trio master",
+    "img": "rayquaza.jpg"
   }
 ]
