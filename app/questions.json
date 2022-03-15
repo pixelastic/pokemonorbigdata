@@ -193,13 +193,13 @@
     "url": "https://www.quzara.com/",
     "type": 1,
     "text": "Quzara specializes in offering a comprehensive range of Cloud Security Services and Security Analytics",
-    "img": "quzara.jpg"    
+    "img": "quzara.png"    
   },
   {
     "name": "Rayquaza",
     "url": "http://",
     "type": 0,
     "text": "Along with Kyogre and Groudon, Rayquaza is one of the super-ancient Pokémon, serving as the group's trio master",
-    "img": "rayquaza.jpg"
+    "img": "rayquaza.png"
   }
 ]
