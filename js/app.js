@@ -14,7 +14,7 @@ var IS_BIGDATA=1;
 var App = React.createClass({displayName: "App",
   getInitialState: function() {
     // Check if coming from Twitter
-    const isFromTwitter = (document.referrer !== "https://t.co/");
+    const isFromTwitter = (document.referrer === "https://t.co/");
 
     // Load question data from the server
     var self = this;
