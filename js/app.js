@@ -14,13 +14,16 @@ var IS_BIGDATA=1;
 var App = React.createClass({displayName: "App",
   getInitialState: function() {
     // Check if coming from Twitter
-    console.info(document.referrer);
+    const isFromTwitter = (document.referrer !== "https://t.co/");
+
     // Load question data from the server
     var self = this;
     $.get('./questions.json', function(questions) {
       questions = _.shuffle(questions);
+      const initialCurrentState = isFromTwitter ? 
+        APP_STATES.FROM_TWITTER : APP_STATES.QUESTION;
       self.setState({
-        currentState: APP_STATES.QUESTION,
+        currentState: initialCurrentState,
         questionList: questions,
         currentQuestion: questions[0]
       });
