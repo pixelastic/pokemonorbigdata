@@ -1,6 +1,6 @@
 'use strict';
 
-var EndScreen = React.createClass({
+var EndScreen = React.createClass({displayName: "EndScreen",
   render: function() {
     var percent = Math.round(this.props.correctAnswers / this.props.questionList.length * 100);
     var classes = classNames({
@@ -15,14 +15,14 @@ var EndScreen = React.createClass({
     };
 
     return (
-      <div className="endscreen">
-        <h1 className="endscreen-title">Congratulations, you got {percent}% correct!</h1>
-        <div className="progress">
-          <div className={classes} style={style}>
-            <span className="sr-only">20% Complete</span>
-          </div>
-        </div>
-      </div>
+      React.createElement("div", {className: "endscreen"}, 
+        React.createElement("h1", {className: "endscreen-title"}, "Congratulations, you got ", percent, "% correct!"), 
+        React.createElement("div", {className: "progress"}, 
+          React.createElement("div", {className: classes, style: style}, 
+            React.createElement("span", {className: "sr-only"}, "20% Complete")
+          )
+        )
+      )
     )
   }
 });
