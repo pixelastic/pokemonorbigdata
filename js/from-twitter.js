@@ -43,7 +43,7 @@ var FromTwitter = React.createClass({displayName: "FromTwitter",
             ), 
             React.createElement("li", null, 
               React.createElement("div", null, "If you're looking for a company that values differences:"), 
-              React.createElement("a", {href: "https://contentsquare.com/careers/", target: "_blank", className: "btn btn-lg btn-default fromTwitter-careers"}, "Come work with me")
+              React.createElement("a", {href: "https://www.algolia.com/careers/", target: "_blank", className: "btn btn-lg btn-default fromTwitter-careers"}, "Come work with me")
             )
           )
         )
